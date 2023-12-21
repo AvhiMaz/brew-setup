@@ -32,6 +32,10 @@ Run the script and follow the on-screen instructions. It will automatically iden
 - For Bash users: `source ~/.bashrc`
 - For Zsh users: `source ~/.zshrc`
 
+![Image](image2.png)
+
+-You can also configure the highlighted part accordingly (`bashrc` || `zshrc`)
+
 ## Contributions
 
 Contributions are welcome! Feel free to fork this repository, make changes, and submit pull requests.
