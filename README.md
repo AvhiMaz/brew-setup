@@ -34,7 +34,7 @@ Run the script and follow the on-screen instructions. It will automatically iden
 
 ![Image](image2.png)
 
--You can also configure the highlighted part accordingly (`bashrc` || `zshrc`)
+- You can also configure the highlighted part accordingly (`bashrc` || `zshrc`)
 
 ## Contributions
 
