@@ -1,5 +1,12 @@
 #! /bin/bash
 
+###########################################################
+# Script Name: brew-setup.sh
+# Description: This script automates the installation of Homebrew on various Linux distributions based on their package managers.
+# Version: 1.0
+# Date: December 2023
+###########################################################
+
 function is_arch() {
 	if [ -f "/etc/arch-release" ]; then
 		return 0
