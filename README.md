@@ -28,6 +28,10 @@ The `brew-setup.sh` script is designed to detect the Linux distribution type (Ar
 
 Run the script and follow the on-screen instructions. It will automatically identify your Linux distribution type and install Homebrew accordingly.
 
+**Important Note:** After installation, don't forget to source the appropriate configuration file (`bashrc` or `zshrc`) depending on your shell. For example:
+- For Bash users: `source ~/.bashrc`
+- For Zsh users: `source ~/.zshrc`
+
 ## Contributions
 
 Contributions are welcome! Feel free to fork this repository, make changes, and submit pull requests.
