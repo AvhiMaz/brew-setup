@@ -20,6 +20,7 @@ The `brew-setup.sh` script is designed to detect the Linux distribution type (Ar
 
 - Arch-based systems (detected via `/etc/arch-release`)
 - Debian-based systems (including Ubuntu, Linux Mint, detected via `/etc/debian_version` or `/etc/linuxmint/info`)
+- More Distributions are adding soon... :)
 
 ## Usage
 
