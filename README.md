@@ -1,5 +1,7 @@
 # Linux Homebrew Installer
 
+![Homebrew](image.png)
+
 This script automates the installation of Homebrew on various Linux distributions based on their package managers.
 
 ## What is Homebrew (Brew)?
