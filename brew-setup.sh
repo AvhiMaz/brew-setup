@@ -16,6 +16,14 @@ function is_debian() {
 	fi
 }
 
+is_linux_mint() {
+	if [ -f "/etc/linuxmint/info" ]; then
+		return 0
+	else
+		return 1
+	fi
+}
+
 if is_arch; then
 	echo "Arch-based distribution is detected. Installing Homebrew for Arch... "
 	sudo pacman -Syyu --noconfirm
@@ -25,7 +33,7 @@ if is_arch; then
 	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 	echo "Homebrew installation completed. Please restart your terminal or run 'source ~/.zshrc' to start using Homebrew."
 
-elif is_debian; then
+elif is_debian || is_linux_mint; then
 	echo "Debian-based distribution is detected. Installing Homebrew for Debian..."
 	sudo apt-get update && upgrade
 	sudo apt-get install -y build-essential curl file git
