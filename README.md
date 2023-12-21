@@ -10,7 +10,7 @@ Homebrew (often referred to as brew) is a package manager for installing softwar
 
 ## Description
 
-The `brew-setup.sh` script is designed to detect the Linux distribution type (Arch-based, Debian-based, or Linux Mint) and execute the appropriate commands for installing Homebrew.
+The `brew-setup.sh` script is designed to detect the Linux distribution type (Arch-based, Debian-based) and execute the appropriate commands for installing Homebrew.
 
 ## Installation
 
