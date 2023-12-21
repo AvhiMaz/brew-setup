@@ -38,10 +38,10 @@ if is_arch; then
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)"
 	echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >>~/.zshrc
 	eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-	echo "Homebrew installation completed. Please restart your terminal or run 'source ~/.zshrc' to start using Homebrew."
+	echo "Homebrew installation completed for Arch. Please restart your terminal or run 'source ~/.zshrc' to start using Homebrew."
 
 elif is_debian || is_linux_mint; then
-	echo "Debian-based (including Linux Mint, Ubuntu etc) distribution is detected. Installing Homebrew for Debian..."
+	echo "Debian-based (including Linux Mint, Ubuntu etc) distribution is detected. Installing Homebrew for Debian (including Linux Mint, Ubuntu etc)..."
 	sudo apt-get update && upgrade
 	sudo apt-get install -y build-essential curl file git
 	/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
