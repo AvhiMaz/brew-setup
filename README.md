@@ -12,7 +12,7 @@ The `brew-setup.sh` script is designed to detect the Linux distribution type (Ar
 
 ## Installation
 
-1. Clone or download the script from this repository.
+1. Clone the repository `https://github.com/AvhiMaz/brew-setup.git`
 2. Change the Directory `cd brew-setup`
 3. Run the script: `./brew-setup.sh`
 
