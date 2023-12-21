@@ -9,7 +9,7 @@ function is_arch() {
 }
 
 function is_debian() {
-	if [ -f "/etc/debian-release"]; then
+	if [ -f "/etc/debian-release" ]; then
 		return 0
 	else
 		return 1
